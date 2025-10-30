@@ -3,11 +3,11 @@ import { Clock, Calendar } from "lucide-react";
 
 const Schedule = () => {
   const sessions = [
-    { day: "Monday & Wednesday", time: "6:00 PM - 9:00 PM", type: "Open Play" },
-    { day: "Tuesday & Thursday", time: "7:00 PM - 9:00 PM", type: "Training Sessions" },
-    { day: "Friday", time: "6:00 PM - 10:00 PM", type: "Club Night" },
-    { day: "Saturday", time: "2:00 PM - 6:00 PM", type: "Weekend Tournament" },
-    { day: "Sunday", time: "10:00 AM - 2:00 PM", type: "Family Sessions" },
+    { day: "Luni & Miercuri", time: "18:00 - 21:00", type: "Joc Liber" },
+    { day: "Marți & Joi", time: "19:00 - 21:00", type: "Sesiuni de Antrenament" },
+    { day: "Vineri", time: "18:00 - 22:00", type: "Seara Clubului" },
+    { day: "Sâmbătă", time: "14:00 - 18:00", type: "Turneu de Weekend" },
+    { day: "Duminică", time: "10:00 - 14:00", type: "Sesiuni în Familie" },
   ];
 
   return (
@@ -15,10 +15,10 @@ const Schedule = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Training Schedule
+            Program de Antrenament
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Find your perfect time to play. All levels welcome!
+            Găsește momentul perfect pentru a juca. Toate nivelurile sunt binevenite!
           </p>
         </div>
 

@@ -5,18 +5,18 @@ const About = () => {
   const features = [
     {
       icon: Trophy,
-      title: "Competitive Spirit",
-      description: "Regular tournaments and leagues for all skill levels, from beginners to advanced players."
+      title: "Spirit Competitiv",
+      description: "Turnee și ligi regulate pentru toate nivelurile de calificare, de la începători la jucători avansați."
     },
     {
       icon: Heart,
-      title: "Community First",
-      description: "A welcoming environment where friendships are formed over shared love of the game."
+      title: "Comunitatea pe Primul Loc",
+      description: "Un mediu primitor unde prieteniile se formează prin dragostea comună pentru joc."
     },
     {
       icon: Zap,
-      title: "Modern Facilities",
-      description: "Professional-grade tables and equipment in a well-maintained, energetic space."
+      title: "Facilități Moderne",
+      description: "Mese și echipamente de calitate profesională într-un spațiu bine întreținut și energic."
     }
   ];
 
@@ -25,10 +25,10 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            About Our Club
+            Despre Clubul Nostru
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Founded in the heart of Craiter, we're more than just a table tennis club – we're a family of players united by our passion for the sport.
+            Înființat în inima Craiter, suntem mai mult decât un simplu club de tenis de masă – suntem o familie de jucători uniți prin pasiunea noastră pentru sport.
           </p>
         </div>
 
@@ -49,12 +49,12 @@ const About = () => {
         </div>
 
         <div className="bg-card rounded-2xl p-8 md:p-12 shadow-[var(--shadow-soft)] animate-slide-up">
-          <h3 className="text-3xl font-bold mb-6 text-card-foreground">Our Story</h3>
+          <h3 className="text-3xl font-bold mb-6 text-card-foreground">Povestea Noastră</h3>
           <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-            CraiTTer was born from a simple idea: bring the community together through the fast-paced, exhilarating sport of table tennis. Since our founding, we've grown from a small group of enthusiasts to a thriving club with members of all ages and backgrounds.
+            CraiTTer s-a născut dintr-o idee simplă: să aducem comunitatea împreună prin sportul rapid și captivant al tenisului de masă. De la înființare, am crescut de la un mic grup de entuziaști la un club înfloritor cu membri de toate vârstele și mediile.
           </p>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Whether you're looking to compete, stay active, or simply have fun with friends, CraiTTer is your home for table tennis in the neighborhood.
+            Fie că dorești să concurezi, să rămâi activ sau pur și simplu să te distrezi cu prietenii, CraiTTer este casa ta pentru tenis de masă în cartier.
           </p>
         </div>
       </div>

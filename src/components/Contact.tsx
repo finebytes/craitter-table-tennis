@@ -8,24 +8,24 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Get in Touch
+            Contactează-ne
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Ready to join the action? We'd love to hear from you!
+            Gata să te alături acțiunii? Ne-ar plăcea să auzim de la tine!
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           <Card className="p-8 bg-card border-border shadow-[var(--shadow-soft)] animate-scale-in">
-            <h3 className="text-2xl font-bold mb-6 text-card-foreground">Contact Information</h3>
+            <h3 className="text-2xl font-bold mb-6 text-card-foreground">Informații de Contact</h3>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
                   <MapPin className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-card-foreground mb-1">Location</h4>
-                  <p className="text-muted-foreground">Craiter Community Center<br/>123 Paddle Street, Craiter</p>
+                  <h4 className="font-semibold text-card-foreground mb-1">Locație</h4>
+                  <p className="text-muted-foreground">Centrul Comunitar Craiter<br/>Strada Paletei 123, Craiter</p>
                 </div>
               </div>
               
@@ -44,7 +44,7 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-card-foreground mb-1">Phone</h4>
+                  <h4 className="font-semibold text-card-foreground mb-1">Telefon</h4>
                   <p className="text-muted-foreground">+1 (555) 123-4567</p>
                 </div>
               </div>
@@ -52,19 +52,19 @@ const Contact = () => {
           </Card>
 
           <Card className="p-8 bg-primary text-primary-foreground shadow-[var(--shadow-medium)] animate-scale-in" style={{ animationDelay: "0.1s" }}>
-            <h3 className="text-2xl font-bold mb-6">Ready to Play?</h3>
+            <h3 className="text-2xl font-bold mb-6">Gata să Joci?</h3>
             <p className="mb-8 text-primary-foreground/90 leading-relaxed">
-              Join our vibrant community of table tennis enthusiasts. Whether you're a complete beginner or a seasoned pro, there's a place for you at CraiTTer.
+              Alătură-te comunității noastre vibrante de entuziaști ai tenisului de masă. Fie că ești un începător complet sau un profesionist experimentat, există un loc pentru tine la CraiTTer.
             </p>
             <div className="space-y-4">
               <div className="bg-primary-foreground/10 rounded-lg p-4 backdrop-blur-sm">
-                <h4 className="font-semibold mb-2">Membership Benefits</h4>
+                <h4 className="font-semibold mb-2">Beneficii Membru</h4>
                 <ul className="space-y-2 text-sm text-primary-foreground/90">
-                  <li>• Unlimited access during open hours</li>
-                  <li>• Free coaching sessions for beginners</li>
-                  <li>• Tournament entry discounts</li>
-                  <li>• Equipment storage</li>
-                  <li>• Community events and socials</li>
+                  <li>• Acces nelimitat în orele deschise</li>
+                  <li>• Sesiuni gratuite de coaching pentru începători</li>
+                  <li>• Reduceri la înscrierea în turnee</li>
+                  <li>• Depozitare echipament</li>
+                  <li>• Evenimente comunitare și sociale</li>
                 </ul>
               </div>
               <Button 
@@ -72,7 +72,7 @@ const Contact = () => {
                 size="lg" 
                 className="w-full text-lg font-semibold"
               >
-                Become a Member
+                Devino Membru
               </Button>
             </div>
           </Card>
