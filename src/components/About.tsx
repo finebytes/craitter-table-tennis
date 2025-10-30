@@ -51,10 +51,10 @@ const About = () => {
         <div className="bg-card rounded-2xl p-8 md:p-12 shadow-[var(--shadow-soft)] animate-slide-up">
           <h3 className="text-3xl font-bold mb-6 text-card-foreground">Our Story</h3>
           <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-            Craitter was born from a simple idea: bring the community together through the fast-paced, exhilarating sport of table tennis. Since our founding, we've grown from a small group of enthusiasts to a thriving club with members of all ages and backgrounds.
+            CraiTTer was born from a simple idea: bring the community together through the fast-paced, exhilarating sport of table tennis. Since our founding, we've grown from a small group of enthusiasts to a thriving club with members of all ages and backgrounds.
           </p>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Whether you're looking to compete, stay active, or simply have fun with friends, Craitter is your home for table tennis in the neighborhood.
+            Whether you're looking to compete, stay active, or simply have fun with friends, CraiTTer is your home for table tennis in the neighborhood.
           </p>
         </div>
       </div>

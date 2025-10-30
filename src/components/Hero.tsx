@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-primary-foreground leading-tight">
-            Welcome to <span className="text-primary">Craitter</span>
+            Welcome to <span className="text-primary">CraiTTer</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 leading-relaxed">
             Your neighborhood table tennis club in Craiter. Where passion meets the paddle and every match is an adventure.

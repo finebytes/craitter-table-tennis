@@ -54,7 +54,7 @@ const Contact = () => {
           <Card className="p-8 bg-primary text-primary-foreground shadow-[var(--shadow-medium)] animate-scale-in" style={{ animationDelay: "0.1s" }}>
             <h3 className="text-2xl font-bold mb-6">Ready to Play?</h3>
             <p className="mb-8 text-primary-foreground/90 leading-relaxed">
-              Join our vibrant community of table tennis enthusiasts. Whether you're a complete beginner or a seasoned pro, there's a place for you at Craitter.
+              Join our vibrant community of table tennis enthusiasts. Whether you're a complete beginner or a seasoned pro, there's a place for you at CraiTTer.
             </p>
             <div className="space-y-4">
               <div className="bg-primary-foreground/10 rounded-lg p-4 backdrop-blur-sm">
